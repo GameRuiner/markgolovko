@@ -4,11 +4,11 @@
   "items": [
     {
       "name": "Base Dark",
-      "value": "#343434"
+      "value": "#055"
     },
     {
       "name": "Base Light",
-      "value": "#FBFBFB"
+      "value": "#5FF"
     },
     {
       "name": "Primary Highlight",
