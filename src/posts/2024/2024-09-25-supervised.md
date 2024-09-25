@@ -3,7 +3,7 @@ title: 'Supervised vs Unsupervised Machine Learning'
 description: "Supervised learning requires labeled data. However, in practice, unlabeled data is much more common. But what about popularity of supervised vs. unsupervised machine learning algorithms? Let's dive into that topic 🤖"
 discover:
   description: "Supervised learning requires labeled data. However, in practice, unlabeled data is much more common. But what about popularity of supervised vs. unsupervised machine learning algorithms? Let's dive into that topic"
-date: 2024-09-23
+date: 2024-09-25
 ---
 
 Supervised learning requires labeled data. However, in practice, unlabeled data is much more common. But what about popularity of supervised vs. unsupervised machine learning algorithms? Let's dive into that topic 🤖

@@ -27,7 +27,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/GameRuiner/markogolovko.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0-beta.1",
