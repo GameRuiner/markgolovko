@@ -10,6 +10,7 @@ import {drafts} from './plugins/drafts.js';
 
 // Custom transforms
 import {htmlConfig} from './plugins/html-config.js';
+import katex from 'katex'
 
 // Custom template language
 import {cssConfig} from './plugins/css-config.js';
@@ -24,5 +25,6 @@ export default {
 	drafts,
   htmlConfig,
   cssConfig,
-  jsConfig
+  jsConfig,
+  katex
 };

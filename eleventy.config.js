@@ -71,6 +71,12 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter('alphabetic', filters.sortAlphabetically);
   eleventyConfig.addFilter('toAbsoluteUrl', filters.toAbsoluteUrl);
   eleventyConfig.addFilter('slugify', filters.slugifyString);
+  eleventyConfig.addFilter("latex", (content) => {
+    return content.replace(/\$(.+?)\$/g, (_, equation) => {
+      const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+      return plugins.katex.renderToString(cleanEquation, { throwOnError: false });
+    });
+  });
 
   // --------------------- Shortcodes
   eleventyConfig.addShortcode('svg', shortcodes.svgShortcode);

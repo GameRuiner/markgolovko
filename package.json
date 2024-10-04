@@ -50,6 +50,7 @@
     "esbuild": "^0.23.0",
     "html-minifier-terser": "^7.1.0",
     "js-yaml": "^4.1.0",
+    "katex": "^0.16.11",
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.0.1",
