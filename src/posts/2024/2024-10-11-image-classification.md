@@ -10,6 +10,8 @@ Deep learning models have received a lot of attention in recent years. Tasks suc
 
 Image classification is one of the simplest tasks in computer vision. The model has to classify an entire image into one of a set of predefined classes. Despite the simplicity of the task, as the number of classes grows, the complexity of the task increases drastically. 
 
+#### Evaluation Metrics for Classification
+
 Classification models are evaluated using top-1 and top-5 accuracy. In top-1 accuracy, the model predicts correctly if the output class is the same as the true label. In top-5 accuracy, the model predicts correctly if one of the five predicted labels is the true one.
 
 ## EfficientNet
