@@ -1,6 +1,6 @@
 ---
 title: 'You will like my offer'
-description: "Explore the architecture, models, and optimization techniques of context-aware recommender systems."
+description: "Explore the architecture 🏛️, models, and optimization techniques of context-aware recommender systems."
 discover:
     description: "Explore the architecture, models, and optimization techniques of context-aware recommender systems ."
 date: 2024-12-22
