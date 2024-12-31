@@ -27,11 +27,11 @@ Systems employing [content-based filtering][3] recommend items based on their fe
 Content based recommender systems (CBRSs) predict user preferences by comparing user profile and item profiles. Items are retrieved based on user-item interactions.
 
  - **User profile** contains information describing the user, representing their preferences and behavior.
- - **Item profile** representa an item's attributes. It often consists of a collection of item features, typically represented as embeddings in a vector space. By calculating the proximity between vectors, content-based system determine similarity between items.
+ - **Item profile** represents an item's attributes. It often consists of a collection of item features, typically represented as embeddings in a vector space. By calculating the proximity between vectors, content-based system determine similarity between items.
 
 ### Collaborative filtering
 
-[Collaborative filtering][4] (CF)  groups users into distinct clasters based on their behavior. The system then recommends items to a target user based on the general characteristics of their group. The underlying idea is that similar users share similar interests. 
+[Collaborative filtering][4] (CF)  groups users into distinct clusters based on their behavior. The system then recommends items to a target user based on the general characteristics of their group. The underlying idea is that similar users share similar interests. 
 
 This method relies on matrices that map user behavior for each item in system. Unlike content-based filtering, which calculates similarity between items, CF focuses on measuring similarity between users.
 
